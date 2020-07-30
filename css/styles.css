@@ -2,6 +2,12 @@ html{
 	scroll-behavior: smooth
 }
 
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index:99999;
+}
 
 
 *{margin:0;
@@ -40,7 +46,7 @@ li{
 	opacity : .3;
 	z-index: -1;
 	background-color: linear-gradient(to right, #1e5779 0%, #3ccdbb 0% , #16c9f6 100%) ;
-} 
+}
 
 p{
 	font-size:0.9rem;
@@ -136,13 +142,13 @@ h2{
 	background-color: #ff1493;
 	text-decoration: none;
 	box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
-	
+
 }
 
 .center-div p{
 	font-size:1.3rem;
 	padding: 10px 0 20px 0;
-	
+
 
 }
 
@@ -228,7 +234,7 @@ h2{
 .progress{
 	height:0.6rem;
 	margin-bottom:25px;
-	background: #606060;  
+	background: #606060;
 }
 
 i{
@@ -336,7 +342,7 @@ i{
 	color:#fff;
 	text-decoration: none;
 	box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
-	
+
 }
 
 .card:hover{
@@ -361,7 +367,7 @@ i{
 	width:100%;
 	height:100vh;
 	padding:80px 0;
-	background:#ffa07a 
+	background:#ffa07a
 
 }
 
@@ -737,9 +743,3 @@ form:hover .form-button button{
 
 
 /*************** Loading ends**********************/
-
-
-
-
-
-
