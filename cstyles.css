@@ -62,6 +62,14 @@
 
 }
 
+.social .icon .fa{
+	color:#00bcd4;
+}
+
+.social .icon .fa:hover{
+	color:#fff;
+}
+
 .container
 {
 	width:100%;
